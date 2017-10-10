@@ -1,0 +1,323 @@
+body {
+	width: 1200px;
+	height: 1347px;
+	margin: 0 auto;
+}
+
+section {
+	background-image: url(../sea_image.png);
+	width: 1200px;
+	height: 624px;
+	margin-top: 46px;
+}
+
+p {
+	font-family: 'Cabin', sans-serif;
+	font-size: 15px;
+	letter-spacing: 5px;
+	word-spacing: 2px;
+	color: #03565a;
+
+}
+
+header h3 {
+	font-family: 'Rubik', sans-serif;
+	font-size: 50px;
+	letter-spacing: 20px;
+	padding-left: 104px;
+	word-spacing: -13px;
+	margin-top: 65px;
+	margin-bottom: 0;
+	color: #03565a;
+}
+
+header p {
+	padding-left: 102px;
+	padding-top: 11px;
+	width: 948px;
+}
+
+h5 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 18px;
+    letter-spacing: 6px;
+    word-spacing: 8px;
+    text-align: center;
+    margin-top :14px;
+    margin-left: 5px;
+    color: #99ccff;
+}
+
+.h5 {
+	width: 922px;
+    height: 48px;
+    background-color: white;
+    margin: 0 auto;
+    display: inline-block;
+    margin-top: 110px;
+    margin-left: 139px;
+}
+.shadow {
+	margin-top: 65px;
+	width: 610px;
+    height: 180px;
+    background-color: black;
+    opacity: 0.6;
+    margin-left: 297px;
+}
+.h2 {
+	text-align: center;
+    width: 599px;
+    height: 171px;
+    border-style: solid;
+    border-width: 6px;
+    border-color: white;
+
+}
+
+h2 {
+	font-size: 63px;
+    letter-spacing: 15px;
+    word-spacing: 8px;
+    color: white;
+    margin-top: 45px;
+}
+
+.h5s {
+	width: 521px;
+    height: 48px;
+    background-color: white;
+    margin: 0 auto;
+    display: inline-block;
+    margin-top: 106px;
+    margin-left: 340px;
+
+}
+
+.h4{
+	width: 720px;
+    height: 63px;
+    background-color: #036687;
+    margin: 0 auto;
+    display: inline-block;
+    margin-top: 31px;
+    margin-left: 240px;
+
+}
+
+h4 {
+    color: white;
+    font-family: ARIAL;
+    font-size: 24px;
+    letter-spacing: 7px;
+    word-spacing: 13px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 24px;
+}
+
+.h6{
+    width: 411px;
+    height: 64px;
+    background-color: #03565a;
+    margin: 0 auto;
+    display: inline-block;
+    margin-top: 39px;
+    margin-left: 394px;
+
+}
+
+
+h6 {
+    color: white;
+    font-family: ARIAL;
+    font-size: 48px;
+    letter-spacing: 12px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 9px;
+
+}
+
+h1{
+    text-align: center;
+    margin-top: 206px;
+    font-size: 51px;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 12px;
+    color: #03565a;
+}
+
+.left {
+	text-align: left;
+    width: 978px;
+    margin-left: 103px;
+    margin-top: -9px;;
+}
+
+.right {
+    text-align: right;
+    width: 926px;
+    margin-left: 179px;
+    margin-top: 30px;
+}
+
+
+@media screen and (max-width: 576px) {
+    header h3{
+    	font-size: 60px;
+    }
+    header p {
+    width: 81%;
+    font-size: 40px;
+	}
+	section {
+		width: 100%;
+	}
+	.h5{
+		width: 77%;
+   		margin-left: 9%;
+    	height: 15%;
+    	margin-top: 1%;
+	}
+	h5{
+		font-size: 30px;
+	}
+	.h2{
+    	margin-left: 29%;
+   		width: 39%;
+    	height: 35%;
+	}
+	.h5s{
+		margin-left: 28%;
+		margin-top: 4%;
+		height: 16%;
+	}
+	.h4{
+    	margin-top: 3.5%;
+    	margin-left: 19%;
+	}
+	.h6{
+		margin-left: 34%;
+	}
+	h1{
+		margin-left: 2%;
+	}
+	p {
+		font-size: 40px;
+	}
+
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+	header p {
+	width: 70%;
+	font-size: 35px;
+	}
+	section {
+		width: 100%;
+	}
+	.h5{
+		width: 77%;
+   		margin-left: 12%;
+    	height: 15%;
+	}
+	h5{
+		font-size: 30px;
+	}
+	.h2{
+    	margin-left: 25%;
+   		width: 50%;
+    	height: 24%;
+	}
+	.h5s{
+    	margin-left: 29%;
+    	margin-top: 3%;
+    	height: 15%;
+	}
+	.h4{
+		margin-left: 20%;
+	}
+	.h6{
+		    margin-left: 34%;
+	}
+	h1{
+		margin-left: 2%;
+	}
+	p{
+		font-size: 35px;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	header p {
+	width: 80%;
+	font-size: 30px;
+	}
+	section {
+		width: 100%;
+	}
+	.h5{
+		width: 82%;
+   		margin-left: 12%;
+   		height: 14%;
+	}
+	.h2{
+		margin-left: 24%;
+	}
+	.h5s{
+		margin-left: 28%;
+    	margin-top: 2%;
+    	height: 15%;
+    }
+	h5{
+		font-size: 30px;
+	}
+	.h4{
+		margin-left: 19%;
+	}
+	.h6{
+		    margin-left: 33%;
+	}
+	h1{
+		margin-left: -4%;
+	}
+	p{
+		font-size: 40px;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+	header p {
+	width: 85%;
+	}
+	section {
+		width: 100%;
+	}
+	.h5{
+		width: 85%;
+   		margin-left: 7%;
+	}
+	.h2{
+		margin-left: 21%;
+	}
+	.h5s{
+		margin-left: 26%;
+	}
+	h5{
+		font-size: 18px;
+	}
+	.h4{
+		margin-left: 16%;
+	}
+	.h6{
+		    margin-left: 31%;
+	}
+	h1{
+		margin-left: -8%;
+	}
+}
+
+
+
