@@ -1,6 +1,7 @@
-jQuery.fn.extend({
-    scrollToMe: function () {
-        var x = jQuery(this).offset().top - 100;
-        jQuery('html,body').animate({scrollTop: x}, 400);
-    }});
-alert("Salut");
+$(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 500);
+});
